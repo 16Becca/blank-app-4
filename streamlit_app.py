@@ -1,3 +1,4 @@
+import streamlit as st
 st.set_page_config(
     page_title="교사용 응원 카드",
     page_icon="💌",
