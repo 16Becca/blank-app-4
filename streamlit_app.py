@@ -39,7 +39,7 @@ if st.button("🌟 오늘의 응원 받기"):
     st.session_state.previous_quote = st.session_state.current_quote
     
     # QUOTES 리스트에서 무작위로 문구 하나를 선택
-   import streamlit as st
+import streamlit as st
     
     # 현재 문구를 새 문구로 업데이트
     st.session_state.current_quote = new_quote
