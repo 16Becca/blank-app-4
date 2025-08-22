@@ -68,7 +68,7 @@ if st.session_state.previous_quote and st.session_state.previous_quote != "버�
         st.session_state.previous_quote = temp_quote
         
         # 화면을 즉시 새로고침하여 변경사항을 반영
-        st.rerun()```
+        st.rerun()
 
 ---
 
