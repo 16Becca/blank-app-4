@@ -80,4 +80,13 @@ st.markdown("1. `streamlit_app.py`와 `requirements.txt` 파일이 같은 폴더
 st.markdown("2. 해당 폴더 경로에서 터미널을 엽니다.")
 st.markdown("3.  아래 명령어를 입력하고 실행합니다.")
 st.code("pip install -r requirements.txt", language="bash")
-streamlit run streamlit_app.py
+st.subheader("✅ 앱 실행 방법 안내")
+st.markdown("---")
+
+st.markdown("**1단계: 필요한 라이브러리 설치하기**")
+st.info("앱을 처음 실행할 때, 터미널(명령창)에서 아래 명령어를 딱 한 번만 실행해주세요.")
+st.code("pip install -r requirements.txt", language="bash")
+
+st.markdown("**2단계: Streamlit 앱 실행하기**")
+st.info("라이브러리 설치가 끝났다면, 아래 명령어로 앱을 실행할 수 있습니다.")
+st.code("streamlit run streamlit_app.py", language="bash")
