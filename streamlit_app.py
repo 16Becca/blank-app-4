@@ -1,3 +1,10 @@
+import streamlit as st
+# 기존 코드: st.title("My First App")
+# 수정 코드:
+st.title("🏫 우리반 알림장")
+st.write("우리 반의 중요한 소식을 확인하세요!")
+import streamlit as st
+import random
 
 # --- 페이지 설정 ---
 st.set_page_config(
@@ -73,4 +80,4 @@ st.markdown("1. `streamlit_app.py`와 `requirements.txt` 파일이 같은 폴더
 st.markdown("2. 해당 폴더 경로에서 터미널을 엽니다.")
 st.markdown("3.  아래 명령어를 입력하고 실행합니다.")
 st.code("pip install -r requirements.txt", language="bash")
-st.code("streamlit run streamlit_app.py", language="bash")
+streamlit run streamlit_app.py
