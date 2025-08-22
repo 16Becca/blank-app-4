@@ -70,7 +70,7 @@ if st.session_state.previous_quote and st.session_state.previous_quote != "버�
         # 화면을 즉시 새로고침하여 변경사항을 반영
         st.rerun()
 
----
+st.markdown("---")
 
 ### **4. 실행 방법**
 
