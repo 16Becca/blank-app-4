@@ -76,7 +76,8 @@ st.markdown("---")
 
 # 올바른 코드
 st.markdown("1. `streamlit_app.py`와 `requirements.txt` 파일이 같은 폴더에 있는지 확인합니다.")
-st.markdown("2. 해당 폴더 경로에서 터미널을 엽니다."
+# 올바른 코드
+st.markdown("2. 해당 폴더 경로에서 터미널을 엽니다.")
 st.markdown("3.  아래 명령어를 입력하고 실행합니다.")
 ```bash
 streamlit run streamlit_app.py
